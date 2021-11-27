@@ -19,7 +19,6 @@
 	border-radius: 50px;
 	border: 0;
 	padding: 1rem 2rem;
-	float: right;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -29,4 +28,18 @@
 .btn__submit:hover {
 	cursor: pointer;
 	transform: scale(1.1);
+}
+
+.icon_error {
+	position: absolute;
+	top: 25%;
+	right: 5.5rem;
+	display: none;
+}
+
+.msg_error {
+	color: red;
+	font-size: 13px;
+	margin: .5rem 0 0 2rem;
+	display: none;
 }
