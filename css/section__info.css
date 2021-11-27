@@ -1,0 +1,24 @@
+.section__info {
+	width: 84%;
+	margin: 3rem auto;
+}
+
+.info__title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5rem;
+	letter-spacing: 15px;
+}
+
+.info__paragraph {
+	text-align: center;
+	line-height: 1.5;
+	margin: 1.5rem 0;
+	font-size: 1rem;
+	color: hsl(0, 36%, 70%);
+}
+
+.destaque__were {
+	font-weight: 400;
+	color: hsl(0, 36%, 70%);
+}
