@@ -40,6 +40,6 @@
 .msg_error {
 	color: red;
 	font-size: 13px;
-	margin: .5rem 0 0 2rem;
 	display: none;
+	margin-left: 2rem;
 }
