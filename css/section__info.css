@@ -1,5 +1,5 @@
 body {
-	background-color: hsl(0, 100%, 99%);
+	background-image: url("../images/bg-pattern-desktop.svg");
 }
 
 .section__info {
