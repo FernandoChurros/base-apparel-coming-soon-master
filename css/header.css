@@ -2,11 +2,9 @@
 	height: 90px;
 
 	display: flex;
-	align-items: center;
-}
+	align-items: center;}
 
 .header__logo {
-	margin-left: 25px;
 	max-height: 33px;
 	max-width: 158px;
 }

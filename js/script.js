@@ -5,12 +5,12 @@ const msg = document.querySelector('.msg_error');
 
 function showWarning() {
 
-	const isValid = input.value == '';
-	console.log(isValid)
+	const isValid = input.value === '';
 
 	if(isValid) {
-		icon.style.display = 'inline';
-		msg.style.display = 'inline';
+		icon.classList.add('input_not-valid');
+		msg.classList.add('input_not-valid');
+		input.classList.add('border-error')
 	}
 }
 

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 700px) {
+
+	.section__info {
+		margin: 3rem auto;
+	}
+
+	.img__hero {
+
+		background: url("../images/hero-mobile.jpg") center no-repeat;
+		min-width: 375px;
+		min-height: 200px;
+	}
+
+	.info__title {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.header__logo {
+		margin-left: 25px;
+	}
+
+	.info__paragraph {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+
+	body {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 90px calc(100vh - 90px);
+	}
+
+	.header {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		margin: 30px 0 0 100px;
+	}
+
+	.main {
+		grid-column-start: 1;
+		grid-column-end: 2;	
+		grid-row-start: 2;
+		grid-row-end: 3;
+		
+	}
+
+	.main {
+		display: flex;
+		align-items: center;
+		margin-left: 100px;
+	}
+
+	.img__hero {
+
+		background: url("../images/hero-desktop.jpg") 100% center no-repeat;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+
+	.info__title {
+		font-size: 3rem;
+	}
+}
